@@ -21,7 +21,7 @@ window.onload = function() {
 
     const finalResult = `${initialPhrase} ${actionsPhrase} ${whatsPhrase} ${whensPhrase}`;
 
-    document.getElementById("resultado").innerText = finalResult;
+    document.getElementById("respuesta").innerText = finalResult;
   }
 
   document.getElementById("generador").addEventListener("click", () => {
